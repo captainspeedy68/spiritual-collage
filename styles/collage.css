@@ -34,3 +34,8 @@ img{
         grid-template-columns: 1fr;
     }
 }
+
+/* for medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    flex-direction: column;
+}

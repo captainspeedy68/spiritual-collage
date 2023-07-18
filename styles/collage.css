@@ -3,7 +3,8 @@ img{
     height: 100%;
 }
 .row{
-    height: 650px;
+    /* height: 650px; */
+    height: auto;
     display: flex;
     gap: 5px;
     margin-bottom: 5px;
@@ -27,6 +28,7 @@ img{
 @media screen and (max-width: 576px) {
     .row{
         flex-direction: column;
+        /* height: auto; */
     }
     .box{
         grid-template-columns: 1fr;
